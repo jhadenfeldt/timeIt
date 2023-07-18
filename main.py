@@ -109,10 +109,10 @@ def main():
         col1, col2 = columns(2)
 
         with col1:
-            url1 = text_input('URL 1', 'http://192.168.1.158:8070')
+            url1 = text_input('URL 1', 'http://192.168.1.157:8070')
 
         with col2:
-            url2 = text_input('URL 2', 'http://192.168.1.158:8075')
+            url2 = text_input('URL 2', 'http://192.168.1.157:8075')
 
         if button('Run test'):
             with spinner('Taking Measurements...'):
